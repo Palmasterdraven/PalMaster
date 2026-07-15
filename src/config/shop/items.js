@@ -1,5 +1,18 @@
 export const shopItems = [
     {
+    id: 'foxparks',
+    name: '🦊 Foxparks',
+    price: 1000,
+    description: 'A hardworking Fire Pal.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal',
+        palId: 'foxparks',
+        work: ['Kindling Lv.1']
+    }
+},
+    {
         id: 'extra_work',
         name: 'Extra Work Shift',
         price: 5000,
