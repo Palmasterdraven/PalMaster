@@ -149,16 +149,16 @@ function formatCooldown(ms) {
 export function getWorkReward() {
     const amount = Math.floor(Math.random() * (WORK_MAX - WORK_MIN + 1)) + WORK_MIN;
     const jobs = [
-        'worked at a fast food restaurant',
-        'worked as a programmer',
-        'worked as a construction worker',
-        'worked as a doctor',
-        'worked as a streamer',
-        'worked as a YouTuber',
-        'worked as a teacher',
-        'worked as a cashier',
-        'worked as a delivery driver',
-        'worked as a freelancer'
+        'worked as a Pal Tamer',
+        'worked as a Pal Med Doctor',
+        'worked as a Pal Merchant',
+        'worked as a Follower of the Lamballs',
+        'worked as a Raider',
+        'worked as a Pal Butcher',
+        'worked as a Cook',
+        'worked as a Pal Historian',
+        'worked as a Gardener',
+        'worked as a Pal Trainer'
     ];
     
     const job = jobs[Math.floor(Math.random() * jobs.length)];
