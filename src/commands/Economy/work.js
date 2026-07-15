@@ -11,16 +11,16 @@ const MIN_WORK_AMOUNT = botConfig.economy?.workMin ?? 10;
 const MAX_WORK_AMOUNT = botConfig.economy?.workMax ?? 100;
 const LAPTOP_MULTIPLIER = 1.5;
 const WORK_JOBS = [
-    "Software Developer",
-    "Barista",
-    "Janitor",
-    "YouTuber",
-    "Discord Bot Developer",
-    "Cashier",
-    "Pizza Delivery Driver",
-    "Librarian",
+    "Pal Tamer",
+    "Pal Med Doctor",
+    "Pal Merchant",
+    "Follower of the Lamballs",
+    "Raider",
+    "Pal Butcher",
+    "Cook",
+    "Pal Historian",
     "Gardener",
-    "Data Analyst",
+    "Pal Trainer",
 ];
 
 export default {
