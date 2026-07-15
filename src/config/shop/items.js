@@ -8,8 +8,7 @@ export const shopItems = [
     maxQuantity: 1,
     effect: {
         type: 'pal',
-        palId: 'foxparks',
-        work: ['Kindling Lv.1']
+      
     }
 },
     {
