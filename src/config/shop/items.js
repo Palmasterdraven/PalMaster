@@ -12,6 +12,257 @@ export const shopItems = [
     }
 },
     {
+    id: 'common_egg',
+    name: '🥚 Common Egg',
+    price: 500,
+    description: 'Random Neutral Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Neutral'
+    }
+},
+
+{
+    id: 'verdant_egg',
+    name: '🌿 Verdant Egg',
+    price: 500,
+    description: 'Random Grass Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Grass'
+    }
+},
+
+{
+    id: 'scorching_egg',
+    name: '🔥 Scorching Egg',
+    price: 500,
+    description: 'Random Fire Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Fire'
+    }
+},
+
+{
+    id: 'damp_egg',
+    name: '💧 Damp Egg',
+    price: 500,
+    description: 'Random Water Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Water'
+    }
+},
+
+{
+    id: 'electric_egg',
+    name: '⚡ Electric Egg',
+    price: 500,
+    description: 'Random Electric Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Electric'
+    }
+},
+
+{
+    id: 'frozen_egg',
+    name: '❄️ Frozen Egg',
+    price: 500,
+    description: 'Random Ice Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Ice'
+    }
+},
+
+// =========================
+// Hard Tier 1 Eggs - 750
+// =========================
+
+{
+    id: 'rocky_egg',
+    name: '🪨 Rocky Egg',
+    price: 750,
+    description: 'Random Ground Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Ground'
+    }
+},
+
+{
+    id: 'dragon_egg',
+    name: '🐉 Dragon Egg',
+    price: 750,
+    description: 'Random Dragon Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Dragon'
+    }
+},
+
+{
+    id: 'dark_egg',
+    name: '🌑 Dark Egg',
+    price: 750,
+    description: 'Random Dark Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Common',
+        size: 'Small',
+        element: 'Dark'
+    }
+},
+
+// =========================
+// Tier 2 Eggs - 1000
+// =========================
+
+{
+    id: 'large_common_egg',
+    name: '🥚 Large Common Egg',
+    price: 1000,
+    description: 'Random Neutral Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Uncommon',
+        size: 'Large',
+        element: 'Neutral'
+    }
+},
+
+{
+    id: 'large_verdant_egg',
+    name: '🌿 Large Verdant Egg',
+    price: 1000,
+    description: 'Random Grass Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Uncommon',
+        size: 'Large',
+        element: 'Grass'
+    }
+},
+
+{
+    id: 'large_scorching_egg',
+    name: '🔥 Large Scorching Egg',
+    price: 1000,
+    description: 'Random Fire Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Uncommon',
+        size: 'Large',
+        element: 'Fire'
+    }
+},
+
+// Repeat the same pattern for Water, Electric, Ice...
+
+// =========================
+// Hard Tier 2 Eggs - 2500
+// =========================
+
+{
+    id: 'large_dragon_egg',
+    name: '🐉 Large Dragon Egg',
+    price: 2500,
+    description: 'Random Dragon Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Uncommon',
+        size: 'Large',
+        element: 'Dragon'
+    }
+},
+
+// =========================
+// Tier 3 Eggs - 3000
+// =========================
+
+{
+    id: 'huge_common_egg',
+    name: '🥚 Huge Common Egg',
+    price: 3000,
+    description: 'Random Neutral Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Rare',
+        size: 'Huge',
+        element: 'Neutral'
+    }
+},
+
+// Hard Tier 3 Eggs
+// rarity: 'Rare'
+// size: 'Huge'
+
+// =========================
+// Tier 4 Eggs - 10000
+// =========================
+
+{
+    id: 'legendary_common_egg',
+    name: '⭐ Huge/Large Common Egg',
+    price: 10000,
+    description: 'Random Legendary Neutral Pal Egg.',
+    type: 'consumable',
+    maxQuantity: 10,
+    effect: {
+        type: 'egg',
+        rarity: 'Legendary',
+        size: 'Huge/Large',
+        element: 'Neutral'
+    }
+},
+
+    {
         id: 'extra_work',
         name: 'Extra Work Shift',
         price: 5000,
