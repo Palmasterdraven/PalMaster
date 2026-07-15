@@ -22,7 +22,141 @@ export const shopItems = [
         type: 'pal'
     }
 },
+{
+    id: 'lifmunk',
+    name: '🐿️ Lifmunk',
+    price: 1000,
+    description: 'Work Suitability: Planting Lv.1, Lumbering Lv.1, Handiwork Lv.1, Gathering Lv.1. Excellent all-purpose worker.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
 
+{
+    id: 'tanzee',
+    name: '🐵 Tanzee',
+    price: 1000,
+    description: 'Work Suitability: Planting Lv.1, Lumbering Lv.1, Handiwork Lv.1, Gathering Lv.1. Excellent all-purpose worker.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+{
+    id: 'cattiva',
+    name: '🐱 Cattiva',
+    price: 1000,
+    description: 'Work Suitability: Handiwork Lv.1, Transporting Lv.1, Gathering Lv.1. Great for hauling and crafting.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+{
+    id: 'lamball',
+    name: '🐑 Lamball',
+    price: 1000,
+    description: 'Work Suitability: Handiwork Lv.1, Transporting Lv.1, Gathering Lv.1. Great for hauling and crafting.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+{
+    id: 'gumoss',
+    name: '🌱 Gumoss',
+    price: 1000,
+    description: 'Work Suitability: Planting Lv.1. Ideal for automating Berry Plantations.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+{
+    id: 'eikthyrdeer',
+    name: '🦌 Eikthyrdeer',
+    price: 1000,
+    description: 'Work Suitability: Lumbering Lv.2. Excellent for chopping wood.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+// =========================
+// Tier 2 Pals - 2500 PalCoins
+// =========================
+
+{
+    id: 'anubis',
+    name: '⚱️ Anubis',
+    price: 2500,
+    description: 'Exceptional attack stats with powerful Ground-type abilities.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+{
+    id: 'sootseer',
+    name: '🔥 Sootseer',
+    price: 2500,
+    description: 'Strong Fire-type Pal ideal for raids and damage teams.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+{
+    id: 'xenogard',
+    name: '🌌 Xenogard',
+    price: 2500,
+    description: 'Heavy spatial attacks with strong crowd control.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+{
+    id: 'selyne',
+    name: '🌙 Selyne',
+    price: 2500,
+    description: 'Excellent celestial damage with powerful AoE attacks.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
+
+{
+    id: 'rayhound',
+    name: '⚡ Rayhound',
+    price: 2500,
+    description: 'Fast Electric Pal with high burst damage.',
+    type: 'consumable',
+    maxQuantity: 1,
+    effect: {
+        type: 'pal'
+    }
+},
     {
         id: 'extra_work',
         name: 'Extra Work Shift',
