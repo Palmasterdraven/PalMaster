@@ -161,15 +161,15 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Pal coins",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Pal coins",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "¢",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 100,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
