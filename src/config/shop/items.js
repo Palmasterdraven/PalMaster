@@ -135,11 +135,7 @@ roleId: null,
             protection: true
         }
     }
-    // =========================
-// TIER 1 PALS
-// =========================
-
-{
+   {
     id: 'foxparks',
     name: '🦊 Foxparks',
     price: 1000,
@@ -196,9 +192,6 @@ roleId: null,
     type: 'pal'
 },
 
-// =========================
-// TIER 2 PALS
-// =========================
 
 {
     id: 'anubis',
@@ -235,10 +228,6 @@ roleId: null,
     description: 'Fast Electric attacker.',
     type: 'pal'
 },
-
-// =========================
-// EGGS T1
-// =========================
 
 {
     id: 'common_egg',
@@ -307,10 +296,6 @@ roleId: null,
     type: 'egg'
 },
 
-// =========================
-// EGGS T2
-// =========================
-
 {
     id: 'large_common_egg',
     name: '🥚 Large Common Egg',
@@ -378,10 +363,6 @@ roleId: null,
     type: 'egg'
 },
 
-// =========================
-// EGGS T3
-// =========================
-
 {
     id: 'huge_common_egg',
     name: '🥚 Huge Common Egg',
@@ -425,8 +406,6 @@ roleId: null,
     type: 'egg'
 },
 
-// Hard Eggs T3
-
 {
     id: 'huge_rocky_egg',
     name: '🪨 Huge Rocky Egg',
@@ -448,10 +427,6 @@ roleId: null,
     description: 'Rare Dark Egg.',
     type: 'egg'
 },
-
-// =========================
-// LEGENDARY EGGS T4
-// =========================
 
 {
     id: 'legendary_common_egg',
@@ -495,8 +470,6 @@ roleId: null,
     description: 'Huge/Large Ice Egg.',
     type: 'egg'
 },
-
-// Hard Legendary Eggs
 
 {
     id: 'legendary_rocky_egg',
